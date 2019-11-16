@@ -35,5 +35,30 @@ export class AppComponent {
       tipo: 'DESPESA', descricao: 'Mensalidade musculação', dataVencimento: '13/07/2017',
       dataPagamento: null, valor: 180, pessoa: 'Academia Top'
     }
+    ,
+    {
+      tipo: 'DESPESA', descricao: 'Mensalidade musculação', dataVencimento: '13/07/2017',
+      dataPagamento: null, valor: 180, pessoa: 'Academia Top'
+    }
+    ,
+    {
+      tipo: 'DESPESA', descricao: 'Mensalidade musculação', dataVencimento: '13/07/2017',
+      dataPagamento: null, valor: 180, pessoa: 'Academia Top'
+    }
+    ,
+    {
+      tipo: 'DESPESA', descricao: 'Mensalidade musculação', dataVencimento: '13/07/2017',
+      dataPagamento: null, valor: 180, pessoa: 'Academia Top'
+    }
+    ,
+    {
+      tipo: 'DESPESA', descricao: 'Mensalidade musculação', dataVencimento: '13/07/2017',
+      dataPagamento: null, valor: 180, pessoa: 'Academia Top'
+    }
+    ,
+    {
+      tipo: 'DESPESA', descricao: 'Mensalidade musculação', dataVencimento: '13/07/2017',
+      dataPagamento: null, valor: 180, pessoa: 'Academia Top'
+    }
   ];
 }
