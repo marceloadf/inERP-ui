@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #dedede;
+  background-color: #3f3f3f;
+}
+
+label {
+  font-weight: bold;
+}
+
+.header {
+  background-image: linear-gradient(to left, #2bc0ec, #1b81d7);
+  color: #fff;
+}
+
+.vencimentoDatePicker {
+  width: 95px;
+}
+
+.fixMargin {
+  margin: 0 .5em;
+}
+
+@media(min-width: 1200px) {
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
+
+
+.col-valor-header {
+  width: 120px;
+}
+
+.col-data-header {
+  width: 120px;
+}
+
+.col-data-content {
+  text-align: center;
+}
+
+.col-valor-content {
+  text-align: right;
+}
+
