@@ -45,10 +45,10 @@
           <tr>
             <td>{{lancamento.pessoa}}</td>
             <td class="ui-p-6">{{lancamento.descricao}}</td>
-            <td class="ui-p-5 col-data-content">{{lancamento.dataVencimento}}</td>
-            <td class="ui-p-6 col-data-content">{{lancamento.dataPagamento}}</td>
+            <td class="ui-p-5 col-data-content">{{lancamento.dataVencimento | date: 'dd/MM/yyyy'}}</td>
+            <td class="ui-p-6 col-data-content">{{lancamento.dataPagamento | date: 'dd/MM/yyyy'}}</td>
             <td class="ui-p-4 col-valor-content" style="font-weight: bold;">
-              <span [style.color]="lancamento.tipo === 'DESPESA' ? '#e91224' : '#1b71bb'">{{lancamento.valor}} </span>
+              <span [style.color]="lancamento.tipo === 'DESPESA' ? '#e91224' : '#1b71bb'">{{lancamento.valor | currency: 'BRL'}} </span>
             </td>
             <td style="text-align: center;">
               <a class="espaco-icones" pTooltip="Editar" tooltipPosition="top" pButton icon="pi pi-pencil"></a>
