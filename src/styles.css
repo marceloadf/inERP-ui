@@ -29,3 +29,8 @@ label {
     margin: 0 auto;
   }
 }
+
+.espaco-icones {
+  margin: 0 .25em !important;
+
+}

@@ -1,0 +1,46 @@
+
+.navbar-toggle {
+  color: #fff;
+}
+
+.navbar-menu {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-usuario {
+  background-color: #191919;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-menuitem {
+  padding: 15px;
+}
+
+.navbar-menuitem a {
+  color: #c0bbb7;
+  text-decoration: none;
+}
+
+.navbar-menuitem a:hover {
+  color: #fff;
+}
+
+::ng-deep body .ui-sidebar {
+  padding: 0px;
+}
+
+li:hover {
+  background-color: #3f3f3f;
+}
+
+li button{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
